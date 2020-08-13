@@ -10,7 +10,7 @@ body{
     background: url(notebook.png);
 }
 .header{
-    height:10rem;
+    height:auto;
     width: 80%;
     margin: 50px auto 0 auto;
 }
@@ -37,7 +37,7 @@ body{
 }
 .mainleft1{
     background-color: rgb(90, 240, 110);
-    height:400.0rem;
+    height:auto;
     width: 62%;
     padding-left: 2.5rem;
     margin-bottom: 1.0rem;
@@ -46,37 +46,43 @@ body{
 }
 
 .heading1{
-    font-size: 3.5rem;
+    font-size: 4.5rem;
     font-family: 'Cantarell';
 }
 .image1{
     width: 95%;
 }
 .para1{
-    font-family: 'Cormorant Upright';
+    font-family: 'Content';
+    font-size: 2.5rem;
+    padding-right: 3.0rem;
 }
 hr{
     margin-right: 3.0rem;
 }
-.para2{
-    font-family: 'Cormorant Upright';
-}
-.heading2{
+/* .para2{
+    font-family: 'Content';
+    font-size: 2.5rem;
+    padding-right: 3.0rem;
+} */
+/* .heading2{
     font-size: 3.5rem;
     font-family: 'Cantarell';
-}
+} */
 
-.para3{
-    font-family: 'Cormorant Upright';
-}
+/* .para3{
+    font-family: 'Content';
+    font-size: 2.5rem;
+    padding-right: 3.0rem;
+} */
 .para4{
     font-family: 'Cormorant Upright';
     font: lightgrey;
 }
-.heading3{
+/* .heading3{
     font-size: 3.5rem;
     font-family: 'Cantarell';
-}
+} */
 
 .para5{
     font-family: 'Cormorant Upright';
@@ -94,33 +100,34 @@ span{
 .mainright{
     background-color: rgb(130, 84, 238);
     width: 34%;
-    height: 70.0rem;
+    height: auto;
     right: 0;
     position: absolute;
-    border-left: lightgrey;
+    /* border-left: lightgrey; */
     
 }
 .image-right{
-    width: 15.0rem;
-    height: 15.0rem;
-    border-radius: 30%;
-    alt: avatar;
-    padding-left: 7.5rem;
-    padding-top: 2.5rem;
+    width: 65%;
+    padding-left:6rem;
+    padding-top: 2rem;
+    padding-right: 6rem; 
 }
 .para-right1{
     font-family: 'Cormorant Upright';
     font: lightgrey;
     margin-left: 2.5rem ;
+    margin-right: 2.5rem;
     font-weight: bold;
-    font-size: 2.0rem;
+    font-size: 2.8rem;
 }
 .para-right2{
-    font-family: 'Cormorant Upright';
+    font-family: 'Content';
     font: lightgrey;
-    margin-left: 2.5rem ;
+    margin-left: 1.5rem ;
+    margin-right: 1.5rem;
+
     font-weight: bold;
-    font-size: 3.0rem;
+    font-size: 4.0rem;
     text-decoration: underline;
 }
 .anchor{
@@ -153,11 +160,13 @@ img .linkedin{
     border-left: .3rem solid lightgrey;
     height: 12.0rem;
     margin-left: 2.5rem;
+    margin-bottom: 1rem;
 }
 .para-right3{
-    font-family: 'Akronim';font-size: 2.2rem;
+    font-family: 'content';font-size: 2.2rem;
     font: lightgrey;
-    margin-left: 2.5rem ;
+    margin-left: 1.5rem ;
+    margin-right: 1.5rem;
   
     
 }
