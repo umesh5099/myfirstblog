@@ -3,7 +3,7 @@ var images=["resource/newyear1.jpeg",
             "resource/newyear1.jpeg",
             "resource/newyear1.jpeg",
             "resource/newyear1.jpeg",
-];
+            ];
 var i=0;
 
 function slides(){
