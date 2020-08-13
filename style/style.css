@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    /* by default it is 16px, 100%=16px.....1px=6.25%... therefore 10px=62.5% */
+    font-size: 62.5%; 
+}
+body{
+    background: url(notebook.png);
+}
+.header{
+    height:10rem;
+    width: 80%;
+    margin: 50px auto 0 auto;
+}
+
+.heading{
+    font-size: 5.5rem;
+    padding-left: 1.0rem;
+    font-family: 'Cantarell';
+}
+
+.para{
+    font-size: 2.5rem;
+    padding-left: 1.5rem;
+    font-family: 'Content';
+    /* font-weight: bold; */
+    color: lightslategray;
+}
+.main{
+    background-color: none;
+    width: 80%;
+    height: 401.0rem;
+    margin-left: 13.0rem;
+    position: relative;
+}
+.mainleft1{
+    background-color: rgb(90, 240, 110);
+    height:400.0rem;
+    width: 62%;
+    padding-left: 2.5rem;
+    margin-bottom: 1.0rem;
+    left: 0;
+    position: absolute;
+}
+
+.heading1{
+    font-size: 3.5rem;
+    font-family: 'Cantarell';
+}
+.image1{
+    width: 95%;
+}
+.para1{
+    font-family: 'Cormorant Upright';
+}
+hr{
+    margin-right: 3.0rem;
+}
+.para2{
+    font-family: 'Cormorant Upright';
+}
+.heading2{
+    font-size: 3.5rem;
+    font-family: 'Cantarell';
+}
+
+.para3{
+    font-family: 'Cormorant Upright';
+}
+.para4{
+    font-family: 'Cormorant Upright';
+    font: lightgrey;
+}
+.heading3{
+    font-size: 3.5rem;
+    font-family: 'Cantarell';
+}
+
+.para5{
+    font-family: 'Cormorant Upright';
+    font: lightgrey;
+    padding-right: 2.0rem;
+
+}
+h3{
+    padding-left: 13.0rem;
+}
+span{
+    color: red;
+}
+
+.mainright{
+    background-color: rgb(130, 84, 238);
+    width: 34%;
+    height: 70.0rem;
+    right: 0;
+    position: absolute;
+    border-left: lightgrey;
+    
+}
+.image-right{
+    width: 15.0rem;
+    height: 15.0rem;
+    border-radius: 30%;
+    alt: avatar;
+    padding-left: 7.5rem;
+    padding-top: 2.5rem;
+}
+.para-right1{
+    font-family: 'Cormorant Upright';
+    font: lightgrey;
+    margin-left: 2.5rem ;
+    font-weight: bold;
+    font-size: 2.0rem;
+}
+.para-right2{
+    font-family: 'Cormorant Upright';
+    font: lightgrey;
+    margin-left: 2.5rem ;
+    font-weight: bold;
+    font-size: 3.0rem;
+    text-decoration: underline;
+}
+.anchor{
+    display: inline-block;
+    text-decoration: none;
+    margin-left: 2.5rem;
+    font-size: 2.0rem;
+}
+
+
+a{
+    font-size: 40px;
+    margin: 20px;
+    /* color: grey; */
+}
+a img{
+    transition: all 0.3s linear;
+    color: coral;
+}
+a:hover img{
+    transform: scale(1.5);
+}
+img .linkedin{
+    color: coral;
+}
+
+
+
+.vertical-rule{
+    border-left: .3rem solid lightgrey;
+    height: 12.0rem;
+    margin-left: 2.5rem;
+}
+.para-right3{
+    font-family: 'Akronim';font-size: 2.2rem;
+    font: lightgrey;
+    margin-left: 2.5rem ;
+  
+    
+}
